@@ -3,51 +3,51 @@ import { Badge } from "@/components/ui/badge"
 
 const features = [
   {
-    title: "Адаптивная нейрообработка",
-    description: "Самооптимизирующиеся алгоритмы, которые обучаются на нейронных паттернах и улучшают интерпретацию сигналов.",
+    title: "Эксклюзивные биты",
+    description: "Уникальные треки, созданные с нуля. Каждый бит — авторский, без повторов и перепродаж другим артистам.",
     icon: "brain",
-    badge: "ИИ",
+    badge: "Exclusive",
   },
   {
-    title: "Медицинская защита",
-    description: "Шифрование по стандартам FDA со сквозной защитой конфиденциальных нейронных данных.",
-    icon: "lock",
-    badge: "Сертификат",
-  },
-  {
-    title: "Интуитивное управление",
-    description: "Естественная трансляция мыслей в действия с откликом менее миллисекунды и точностью 99,7%.",
-    icon: "globe",
-    badge: "Точность",
-  },
-  {
-    title: "Предиктивная калибровка",
-    description: "ML-модели, которые предугадывают намерения пользователя и оптимизируют нейронные пути.",
+    title: "Мгновенная загрузка",
+    description: "После оплаты файлы доступны сразу. MP3, WAV и стемы — всё в одном пакете.",
     icon: "zap",
-    badge: "Умный",
+    badge: "Быстро",
   },
   {
-    title: "Биометрическая интеграция",
-    description: "Бесшовная синхронизация с мониторингом жизненных показателей для контроля здоровья.",
-    icon: "link",
-    badge: "Связь",
+    title: "Полные права",
+    description: "Лицензии на коммерческое использование — релизы на стримингах, YouTube, TikTok без ограничений.",
+    icon: "lock",
+    badge: "Лицензия",
   },
   {
-    title: "Поддержка XR",
-    description: "Нативная совместимость с AR/VR-средами для терапевтических и рабочих приложений.",
+    title: "Разные жанры",
+    description: "Trap, Drill, R&B, Phonk, Boom Bap и многое другое. Найди звук, который подходит именно тебе.",
+    icon: "globe",
+    badge: "Жанры",
+  },
+  {
+    title: "Кастомный заказ",
+    description: "Нужен эксклюзивный бит под твой проект? Напиши — сделаем под твой стиль и настроение.",
     icon: "target",
-    badge: "XR Ready",
+    badge: "Заказ",
+  },
+  {
+    title: "Поддержка артистов",
+    description: "Советы по использованию, помощь с лицензиями и прямой контакт с продюсером всегда доступны.",
+    icon: "link",
+    badge: "Поддержка",
   },
 ]
 
 export function FeaturesSection() {
   return (
-    <section className="py-24 px-6 bg-background">
+    <section id="features" className="py-24 px-6 bg-background">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-foreground mb-4 font-sans">Возможности нового поколения</h2>
+          <h2 className="text-4xl font-bold text-foreground mb-4 font-sans">Почему выбирают нас</h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            Почувствуйте будущее с технологиями, которые переопределяют возможное
+            Качественная музыка для твоих проектов — от инди-артиста до крупных релизов
           </p>
         </div>
 

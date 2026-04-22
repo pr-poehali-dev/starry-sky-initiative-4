@@ -3,25 +3,25 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 
 const testimonials = [
   {
-    name: "Елена Родригес",
-    role: "Директор по нейронауке, Quantum Dynamics",
-    avatar: "/professional-woman-scientist.png",
-    content:
-      "SynapseAI изменил наш подход к нейрореабилитации. Результаты пациентов улучшились на 340% после внедрения.",
-  },
-  {
-    name: "Маркус Уильямс",
-    role: "Руководитель исследований, Stellar Analytics",
+    name: "LKNG",
+    role: "Рэпер, 500k+ стримов на Spotify",
     avatar: "/cybersecurity-expert-man.jpg",
     content:
-      "Точность и протоколы безопасности не имеют аналогов. Мы значительно ускорили клинические испытания с платформой SynapseAI.",
+      "Взял бит под трек — за неделю набрал 200к прослушиваний. Качество звука просто огонь, лицензия без лишних вопросов.",
   },
   {
-    name: "Анна Ковальски",
-    role: "Вице-президент по разработке, Nova Industries",
+    name: "Алина М.",
+    role: "R&B-исполнитель, TikTok 1M подписчиков",
     avatar: "/asian-woman-tech-developer.jpg",
     content:
-      "Интеграция прошла безупречно. Адаптивные алгоритмы понимают намерения пользователя лучше любой системы, что мы тестировали.",
+      "Нашла идеальный R&B бит с первого раза. Красивая мелодика, всё чисто по лицензии — залила на YouTube без проблем.",
+  },
+  {
+    name: "DJ Frost",
+    role: "Продюсер, резидент клуба Arbat",
+    avatar: "/professional-woman-scientist.png",
+    content:
+      "Заказал кастомный трек под мероприятие — сделали точно в срок. Публика была в восторге, уже взял второй заказ.",
   },
 ]
 
@@ -30,9 +30,9 @@ export function TestimonialsSection() {
     <section className="py-24 px-6 bg-card">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-card-foreground mb-4 font-sans">Нам доверяют лидеры</h2>
+          <h2 className="text-4xl font-bold text-card-foreground mb-4 font-sans">Артисты говорят</h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            Что говорят лидеры индустрии о нашей революционной технологии
+            Реальные отзывы музыкантов, которые уже создали хиты с нашими битами
           </p>
         </div>
 
