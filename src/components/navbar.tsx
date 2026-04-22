@@ -20,10 +20,10 @@ export function Navbar() {
           <div className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-8">
               <a
-                href="#features"
+                href="#tracks"
                 className="font-geist text-white hover:text-red-500 transition-colors duration-200"
               >
-                Треки
+                Биты
               </a>
               <a href="#applications" className="font-geist text-white hover:text-red-500 transition-colors duration-200">
                 Жанры
@@ -36,7 +36,7 @@ export function Navbar() {
 
           {/* CTA Button */}
           <div className="hidden md:block">
-            <Button className="bg-red-500 hover:bg-red-600 text-white font-geist border-0">Слушать треки</Button>
+            <Button className="bg-red-500 hover:bg-red-600 text-white font-geist border-0" onClick={() => document.getElementById('tracks')?.scrollIntoView({ behavior: 'smooth' })}>Слушать треки</Button>
           </div>
 
           {/* Mobile menu button */}
@@ -55,11 +55,11 @@ export function Navbar() {
           <div className="md:hidden">
             <div className="px-2 pt-2 pb-3 space-y-1 bg-black/98 border-t border-red-500/20">
               <a
-                href="#features"
+                href="#tracks"
                 className="block px-3 py-2 font-geist text-white hover:text-red-500 transition-colors duration-200"
                 onClick={() => setIsOpen(false)}
               >
-                Треки
+                Биты
               </a>
               <a
                 href="#applications"
